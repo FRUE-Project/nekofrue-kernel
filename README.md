@@ -1,5 +1,6 @@
 # NekoFrue Kernel
 The NekoFrue kernel is an open-source Linux alternative (sort of)
+(.config, Makefile, etc. are made by NekoMimi#7225)
 
 # Prerequisites
 - `flex`
