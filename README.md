@@ -13,6 +13,8 @@ The NekoFrue kernel is an open-source Linux alternative (sort of)
 - `libelf-dev` 
 - `gzip` 
 - `lzo`
+- `fakeroot`
+(once again, these are prerequisites for Debian, for other distros it might be different! You'll have to figure it out on your own.)
 
 # How to Do  It
 - First, what you'll need to do is download the .zip of the custom kernel config here **(in Releases tab)**, and also download the current kernel from https://kernel.org
