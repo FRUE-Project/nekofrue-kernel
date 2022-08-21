@@ -3,6 +3,7 @@ The NekoFrue kernel is an open-source Linux alternative (sort of)
 (.config, Makefile, etc. are made by NekoMimi#7225)
 ![Untitled132_20220821172356](https://user-images.githubusercontent.com/88291291/185815668-ca0d3d51-6dce-47e9-a864-f917b0dbf547.png)
 # Prerequisites
+(mainly for Debian, you'll need these:)
 - `flex`
 - `make`
 - An hour or two of your time and sanity
