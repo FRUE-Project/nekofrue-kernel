@@ -28,6 +28,7 @@ Now the hard part,
 
 - `cd` to the kernel directory
 - Run `make -j NUMBEROFJOBS` (replace NUMBEROFJOBS with a number, this should be about a quarter of your RAM unless you have extra to spare)
+
 Once it's done compiling,
 - Run `make modules_install` as root (or sudo)
 - Run `make install` as root (or sudo)
