@@ -1,5 +1,6 @@
 # NekoFrue Kernel
 The NekoFrue kernel is an open-source Linux alternative (sort of)
+
 (.config, Makefile, etc. are made by NekoMimi#7225)
 ![Untitled132_20220821172356](https://user-images.githubusercontent.com/88291291/185815668-ca0d3d51-6dce-47e9-a864-f917b0dbf547.png)
 # Prerequisites
@@ -14,6 +15,7 @@ The NekoFrue kernel is an open-source Linux alternative (sort of)
 - `gzip` 
 - `lzo`
 - `fakeroot`
+
 (once again, these are prerequisites for Debian, for other distros it might be different! You'll have to figure it out on your own.)
 
 # How to Do  It
@@ -24,7 +26,7 @@ The NekoFrue kernel is an open-source Linux alternative (sort of)
 Now the hard part,
 
 - `cd` to the kernel directory
-- Run `make`
+- Run `make -j NUMBEROFJOBS` (replace NUMBEROFJOBS with a number, this should be about a quarter of your RAM unless you have extra to spare)
 Once it's done compiling,
 - Run `make modules_install` as root (or sudo)
 - Run `make install` as root (or sudo)
