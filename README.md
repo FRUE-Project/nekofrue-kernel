@@ -19,6 +19,7 @@ The NekoFrue kernel is an open-source Linux alternative (sort of)
 (once again, these are prerequisites for Debian, for other distros it might be different! You'll have to figure it out on your own.)
 
 # How to Do  It
+- This will work on kernel versions up to 5.19.2 (tested on 5.19.1, but should work nontheless)
 - First, what you'll need to do is download the .zip of the custom kernel config here **(in Releases tab)**, and also download the current kernel from https://kernel.org
 - Now,  extract the zip of the NekoFrue kernel stuff, and extract the Linux kernel as well (preferably in a directory like `~/kernel`
 - Replace the `Makefile` and `.config` with the ones from the NekoFrue folder
